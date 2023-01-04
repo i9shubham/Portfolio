@@ -1,0 +1,14 @@
+/* color pallets { #EE4540 #C72C41 #801336 #510A32 #2D142C } */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+body {
+    height: 100vh;
+    /* background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% ); */
+    background-image: radial-gradient(circle 610px at 5.2% 51.6%, #510A32 0%, #000 97.5%);
+}
