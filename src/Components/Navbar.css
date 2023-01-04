@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.links{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.links a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.links a:hover{
+    color: #EE4540;
+    transition: 0.5s;
+}
