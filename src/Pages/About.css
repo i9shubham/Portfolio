@@ -1,0 +1,58 @@
+#about-me{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    /* background-color: #ee2e47; */
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    /* height: 50vh; */
+    /* margin: 0 10%; */
+    padding: 2%;
+    border-radius: 1%;
+    line-height: 2;
+}
+.about ul{
+    width: 80%;
+    margin: 5% 10% 0;
+    text-align: start;
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.clg{
+    display: inline;
+    font-size: 0.8em;
+}
+.margin-top{
+    margin-top: 2%;
+}
+.about ul li{
+    display: flex;
+    align-items: center;
+    color: #1d2d3f;
+    font-weight: 700;
+}
+
+.desc{
+    height: auto;
+    padding: 1%;
+    /* background-color: #fff; */
+}
+
+.desc p{
+    text-align: justify;
+}
+
+.profile-img img{
+    width: 25vw;
+    height: 100%;
+    background-color: #fff;
+}
+
+.tech-stack{
+    width: 15%;
+}

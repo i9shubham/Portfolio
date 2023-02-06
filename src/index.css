@@ -1,14 +1,42 @@
 /* color pallets { #EE4540 #C72C41 #801336 #510A32 #2D142C } */
+@font-face {
+    font-family: poppins-reg;
+    src: url(./fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppins-bold;
+    src: url(./fonts/Poppins-Bold.ttf);
+}
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #fff;
+    /* font-family: calistoga; */
+    /* font-family: Helvetica; */
+    font-family: poppins-reg;
+    color: #000;
 }
 
 body {
     height: 100vh;
+    background-color: #F5F5F5;
+    margin: 0 10%;
     /* background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% ); */
-    background-image: radial-gradient(circle 610px at 5.2% 51.6%, #510A32 0%, #000 97.5%);
+    /* background-image: radial-gradient(circle 610px at 5.2% 51.6%, #510A32 0%, #000 97.5%); */
+}
+
+h1{
+    color: #42446E;
+}
+
+p{
+    color: #666666;
+}
+
+.centre{
+    text-align: center;
+}
+
+.bold{
+    font-family: poppins-bold;
 }

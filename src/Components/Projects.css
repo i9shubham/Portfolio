@@ -1,0 +1,11 @@
+#projects{
+    margin: 5% 0;
+    width: 80vw;
+}
+
+.myprojects{
+    margin: 2% 0;
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    justify-items: center;
+}

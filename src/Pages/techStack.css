@@ -1,0 +1,29 @@
+#techStack{
+    height: 100vh;
+    /* margin: 0 0 10%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stackflex{
+    width: 80vw;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0, 4fr));
+    justify-items: center;
+    margin: 2% 0;
+} 
+.stackflex img{
+    margin: 4% 0;
+}
+.stackflex1 {
+    margin-top: 5%;
+}
+.stack{
+    width: 5vw;
+    display: flex;
+}
