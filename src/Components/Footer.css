@@ -42,6 +42,9 @@
 }
 
 @media only screen and (max-width: 600px){
+    .footer{
+        height: 15vh;
+    }
     .link-sec{
         display: none;
     }
