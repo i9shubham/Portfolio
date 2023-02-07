@@ -32,3 +32,18 @@
     padding: 2%;
     border-radius: 5%;
 }
+
+
+@media only screen and (max-width: 600px){
+    #contact{
+        height: 70vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .feedback{
+        font-size: 2em;
+    }
+    .contact-form{
+        width: 80%;
+    }
+}

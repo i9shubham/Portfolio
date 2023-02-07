@@ -23,27 +23,21 @@ const TechStack = () => {
                         <img src={html} alt='' className='stack' />
                         <img src={css} alt='' className='stack' />
                         <img src={js} alt='' className='stack' />
-                    {/* </div> */}
-                    {/* <div className='stackflex'> */}
+
                         <img src={react} alt='' className='stack' />
                         <img src={bootstrap} alt='' className='stack' />
                         <img src={vscode} alt='' className='stack' />
-                    {/* </div> */}
-                    {/* <div className='stackflex'> */}
+
                         <img src={nodejs} alt='' className='stack' />
                         <img src={express} alt='' className='stack' />
                         <img src={mongodb} alt='' className='stack' />
-                    {/* </div> */}
-                    {/* <div className='stackflex'> */}
+
                         <img src={git} alt='' className='stack' />
                         <img src={github} alt='' className='stack' />
                         <img src={cplusplus} alt='' className='stack' />
                     </div>
                 </div>
-                
             </div>
-            
-
         </>
     )
 }

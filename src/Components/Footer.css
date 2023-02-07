@@ -1,8 +1,4 @@
 .footer{
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center; */
     height: 20vh;
     width: auto;
 }
@@ -17,6 +13,10 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+}
+
+.footer-social-mobile{
+    display: none;
 }
 
 .footer-links a {
@@ -41,6 +41,18 @@
     margin: 0 2% 1%;
 }
 
-hr{
-    color: red;
+@media only screen and (max-width: 600px){
+    .link-sec{
+        display: none;
+    }
+    .footer-links{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-social-mobile{
+        margin-top: 2%;
+        display: flex;
+        justify-content: center;
+    }
 }

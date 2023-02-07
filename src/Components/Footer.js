@@ -7,7 +7,7 @@ const Footer = ()=>{
     return(
         <>
             <div className="footer">
-            <div className="footer-social">
+            <div className="footer-social pc">
                 <a className="social" href="https://www.github.com/Shuhbam7350"><AiFillGithub size='1.2em' /></a>
                 <a className="social" href="https://www.twitter.com/twtShubz"><AiFillTwitterCircle  size='1.2em' /></a>
                 <a className="social" href="https://www.linkedin.com/in/shubham-ingole"> <AiFillLinkedin size='1.2em' /></a>
@@ -23,6 +23,11 @@ const Footer = ()=>{
                     </div>
                    
                     <p> <span className="heading">&copy; Shubham Ingole</span>. All Jams Preserved</p>
+                    <div className="footer-social-mobile">
+                        <a className="social" href="https://www.github.com/Shuhbam7350"><AiFillGithub size='1.2em' /></a>
+                        <a className="social" href="https://www.twitter.com/twtShubz"><AiFillTwitterCircle  size='1.2em' /></a>
+                        <a className="social" href="https://www.linkedin.com/in/shubham-ingole"> <AiFillLinkedin size='1.2em' /></a>
+                    </div>
                 </div>
             </div>
 

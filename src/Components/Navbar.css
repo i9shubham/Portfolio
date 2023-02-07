@@ -7,14 +7,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 1% 0;
-    /* margin: 0 10%; */
     position: fixed;
     backdrop-filter: blur(4px);
 }
 
-.logo {
-    display: flex;
-}
 
 .links {
     width: 50%;
@@ -35,22 +31,19 @@
     transition: 0.5s;
 }
 
-
-
-/* @media only screen and (max-width: 767px) {
-    .navbar {
-        display: none;
-    }
-} */
-
-a img{
+a img {
     width: 2vw;
 }
 
-.icon{
-    color: red;
-}
-.react-icons{
-    color: red;
-    size: 5em;
+@media only screen and (max-width: 600px) {
+    .links {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: center;
+        right: 0;
+        left: 0;
+        width: 100%;
+    }
 }

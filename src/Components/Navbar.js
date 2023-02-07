@@ -1,5 +1,4 @@
 import './Navbar.css'
-// import GitHubIcon from '../images/github.svg';
 import {AiFillLinkedin} from 'react-icons/ai'
 import {AiFillTwitterCircle} from 'react-icons/ai'
 import {AiFillGithub} from 'react-icons/ai'

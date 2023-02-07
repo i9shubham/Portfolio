@@ -12,7 +12,9 @@
     font-weight: bold;
     font-family: poppins-bold;
 }
-
+.mobile{
+    display: none;
+}
 .heading {
     background: linear-gradient(90deg, #1487cc -2.06%, #E70FAA 100%);
     -webkit-background-clip: text;
@@ -24,4 +26,25 @@
 .profile-img img {
     border-radius: 100%;
     width: 25vw;
+}
+
+@media only screen and (max-width: 600px){
+    #home{
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
+    #home h1{
+        text-align: left;
+    }
+    .profile-img img {
+        border-radius: 0 0;
+        width:100%;
+    }
+    .pc{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
 }

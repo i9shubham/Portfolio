@@ -7,9 +7,14 @@ const Home = () => {
         <>
             <Navbar />
             <div id="home">
-                <div>
+                <div className="pc">
                     <h1>Hi 👋,</h1>
                     <h1>my name is</h1>
+                    <h1 className="heading">Shubham Ingole</h1>
+                    <h1>I am a Fullstack Developer</h1>
+                </div>
+                <div className="mobile">
+                    <h1>Hi 👋, myself</h1>
                     <h1 className="heading">Shubham Ingole</h1>
                     <h1>I am a Fullstack Developer</h1>
                 </div>

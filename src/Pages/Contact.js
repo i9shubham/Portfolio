@@ -6,11 +6,10 @@ const Contact = () =>{
         <>
             <div id="contact">
             <div>
-
-            <h1 className="bold centre">Questions and Feedbacks are welcome</h1>
-            <a href="mailto:ishubham158@gmail.com" className="heading bold centre feedback">ishubham158@gmail.com</a>
+            <h1 className="bold centre feedback">Questions and Feedbacks are welcome</h1>
+            <a href="mailto:ishubham158@gmail.com" className="pc heading bold centre feedback">ishubham158@gmail.com</a>
             </div>
-                {/* <form className="contact-form" action="mailto:ishubham158@gmail.com" method="POST" enctype="text/plain">
+                <form className="contact-form mobile" action="mailto:ishubham158@gmail.com" method="POST" enctype="text/plain">
                     <div className="form-group">
                         <input type="text" className="form-control" placeholder="Name" required />
                     </div>
@@ -21,7 +20,7 @@ const Contact = () =>{
                         <textarea className="form-control" rows="5" placeholder="Message" required />
                     </div>
                     <button type="submit" className="btn">Submit</button>
-                </form> */}
+                </form>
             </div>
             <Footer />
         </>

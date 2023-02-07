@@ -3,24 +3,12 @@
     width: 50vw;
     display: flex;
     align-items: center;
-    /* background-color: #ee2e47; */
 }
 .about{
     display: flex;
     justify-content: space-between;
-    /* height: 50vh; */
-    /* margin: 0 10%; */
     padding: 2%;
-    border-radius: 1%;
     line-height: 2;
-}
-.about ul{
-    width: 80%;
-    margin: 5% 10% 0;
-    text-align: start;
-    display: grid;
-    list-style-type: none;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .clg{
@@ -29,12 +17,6 @@
 }
 .margin-top{
     margin-top: 2%;
-}
-.about ul li{
-    display: flex;
-    align-items: center;
-    color: #1d2d3f;
-    font-weight: 700;
 }
 
 .desc{
@@ -55,4 +37,11 @@
 
 .tech-stack{
     width: 15%;
+}
+
+@media only screen and (max-width: 600px){
+    #about-me{
+        height: auto;
+        width: 100%;
+    }
 }

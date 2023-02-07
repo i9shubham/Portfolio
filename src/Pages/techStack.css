@@ -1,6 +1,5 @@
 #techStack{
     height: 100vh;
-    /* margin: 0 0 10%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,10 +7,6 @@
 
 .stackflex{
     width: 80vw;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center; */
     display: grid;
     grid-template-columns: repeat(4,minmax(0, 4fr));
     justify-items: center;
@@ -25,5 +20,19 @@
 }
 .stack{
     width: 5vw;
+    padding: 4%;
     display: flex;
+}
+
+@media only screen and (max-width: 600px){
+    #techStack{
+        height: 50vh;
+    }
+    .stackflex{
+        width: 100%;
+    }
+    .stack{
+        width: 10vw;
+        padding: 4%;
+    }
 }
