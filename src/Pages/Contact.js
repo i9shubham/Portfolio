@@ -9,7 +9,7 @@ const Contact = () =>{
             <h1 className="bold centre feedback">Questions and Feedbacks are welcome</h1>
             <a href="mailto:ishubham158@gmail.com" className="pc heading bold centre feedback">ishubham158@gmail.com</a>
             </div>
-                <form className="contact-form mobile" action="mailto:ishubham158@gmail.com" method="POST" enctype="text/plain">
+                <form className="contact-form mobile" action="mailto:ishubham158@gmail.com" method="GET">
                     <div className="form-group">
                         <input type="text" className="form-control" placeholder="Name" required />
                     </div>
