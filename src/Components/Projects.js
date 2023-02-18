@@ -4,6 +4,7 @@ import Project from "./project/Project"
 export const glimpseai = require("../images/glimpseai.png");
 export const turban = require("../images/turban-india.png");
 export const spotify = require("../images/spotify-clone.png");
+export const portfolio = require("../images/portfolio.png");
 
 
 const projectObj = [
@@ -27,6 +28,13 @@ const projectObj = [
         desc: "This is a Spotify clone web app created with HTML, CSS, Javascript, Nodejs, and Express.",
         link: "https://shubham7350.github.io/Music-Player/",
         githubLink: "https://github.com/Shubham7350/Music-Player"
+    },
+    {
+        img: portfolio,
+        heading: "Portfolio Website",
+        desc: "This is a customize portfolio website for a software developer created with React JS, Javascript, & React Icons Library.",
+        link: "https://shubhamingole.me/",
+        githubLink: "https://github.com/Shubham7350/Portfolio"
     }
 ]
 // console.log(projectObj[0].img)
@@ -37,6 +45,7 @@ const ProjectPage = ()=>{
                 <div className="myprojects">
                     <Project img={projectObj[0].img} heading={projectObj[0].heading} desc={projectObj[0].desc} githubLink={projectObj[0].githubLink} link={projectObj[0].link} />
                     <Project img={projectObj[1].img} heading={projectObj[1].heading} desc={projectObj[1].desc} githubLink={projectObj[1].githubLink} link={projectObj[1].link} />
+                    <Project img={projectObj[3].img} heading={projectObj[3].heading} desc={projectObj[3].desc} githubLink={projectObj[3].githubLink} link={projectObj[3].link} />
                     <Project img={projectObj[2].img} heading={projectObj[2].heading} desc={projectObj[2].desc} githubLink={projectObj[2].githubLink} link={projectObj[2].link} />
                 </div>
             </div>
