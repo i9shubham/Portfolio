@@ -15,12 +15,19 @@
 .stackflex img{
     margin: 4% 0;
 }
+
 .stackflex1 {
     margin-top: 5%;
 }
+
+.stackStyle{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
 .stack{
     width: 5vw;
-    padding: 4%;
     display: flex;
 }
 
@@ -34,5 +41,8 @@
     .stack{
         width: 10vw;
         padding: 4%;
+    }
+    .stackStyle{
+        font-size: 0.5em;
     }
 }
