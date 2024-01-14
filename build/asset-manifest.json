@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a1d1fe17.css",
+    "main.js": "/static/js/main.ae0639c1.js",
+    "static/media/weather-app.png": "/static/media/weather-app.578415a97584c966072b.png",
+    "static/media/glimpseai.png": "/static/media/glimpseai.c0fcf844d6b4a94a33cf.png",
+    "static/media/turban-india.png": "/static/media/turban-india.0781c32ec1cf33ed886d.png",
+    "static/media/ishubham.jpg": "/static/media/ishubham.9915db9799ca594ef835.jpg",
+    "static/media/spotify-clone.png": "/static/media/spotify-clone.f976c843641488a196e2.png",
+    "static/media/portfolio.png": "/static/media/portfolio.a630a332eb0958c0056a.png",
+    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Bold.ttf": "/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/techtree_img.png": "/static/media/techtree_img.3907693deafae52f0291.png",
+    "static/media/socialshare.png": "/static/media/socialshare.2c44e8edb10fa1270c20.png",
+    "static/media/redux.png": "/static/media/redux.cef2cefc47fd1abe86ec.png",
+    "static/media/mongodb.svg": "/static/media/mongodb.b14f79af406efe26fd9d003192f7fbd0.svg",
+    "static/media/nodejs_logo.svg": "/static/media/nodejs_logo.dd47e26ed1d7dddf018e5cbffc40f76d.svg",
+    "static/media/logos_react.svg": "/static/media/logos_react.d3acb7b014b163630295624ae4255f63.svg",
+    "static/media/expressjs-ar21.svg": "/static/media/expressjs-ar21.493a0dd08d8d77a341e2d22676607a29.svg",
+    "static/media/icons8-c++.svg": "/static/media/icons8-c++.fd1f9f607ba45af3fdea8cd43799bba9.svg",
+    "static/media/vscode-icons_file-type-js-official.svg": "/static/media/vscode-icons_file-type-js-official.6bc654a6f228b35379d6224ad01fe7ca.svg",
+    "static/media/logos_git-icon.svg": "/static/media/logos_git-icon.69e9588433f92b2522c871c96a38124e.svg",
+    "index.html": "/index.html",
+    "static/media/vscode-icons_file-type-css.svg": "/static/media/vscode-icons_file-type-css.a84a8879a368c142e9851f85521887fe.svg",
+    "static/media/vscode-icons_file-type-html.svg": "/static/media/vscode-icons_file-type-html.e36951cb785f526090f35ff37aaae3f3.svg",
+    "main.a1d1fe17.css.map": "/static/css/main.a1d1fe17.css.map",
+    "main.ae0639c1.js.map": "/static/js/main.ae0639c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1d1fe17.css",
+    "static/js/main.ae0639c1.js"
+  ]
+}
