@@ -1,3 +1,4 @@
+import React from "react";
 import './About.css';
 import { HiOutlineBuildingLibrary } from 'react-icons/hi2';
 import Typewriter from 'typewriter-effect';

@@ -1,3 +1,4 @@
+import React from "react";
 import './Projects.css';
 import Project from './project/Project';
 import Fade from 'react-reveal/Fade';

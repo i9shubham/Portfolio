@@ -1,3 +1,4 @@
+import React from "react";
 import '../Pages/home.css';
 import './Footer.css';
 import { AiFillLinkedin } from 'react-icons/ai';

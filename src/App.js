@@ -1,3 +1,4 @@
+import React from "react";
 import NavPanel from "./Components/NavPanel";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";

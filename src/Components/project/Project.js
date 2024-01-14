@@ -1,3 +1,4 @@
+import React from "react";
 import "./Project.css"
 import {AiFillGithub} from 'react-icons/ai'
 import {AiOutlineLink} from 'react-icons/ai'
@@ -20,7 +21,7 @@ const Project = (props)=>{
                     </div>
                     <div className="project-links">  
                         <AiFillGithub size='1em' />
-                        <a href={props.githubLink} target="_blank" rel="noreferrer">view code</a>
+                        <a href={props.githubLink} target="_blank" rel="noopener noreferrer">view code</a>
                     </div>
                 </div>
             </div>

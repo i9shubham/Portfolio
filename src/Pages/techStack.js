@@ -1,3 +1,4 @@
+import React from "react";
 import './techStack.css';
 import Fade from 'react-reveal/Fade';
 import html from '../images/vscode-icons_file-type-html.svg';

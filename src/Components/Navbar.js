@@ -1,3 +1,4 @@
+import React from "react";
 import './Navbar.css'
 import {AiFillLinkedin} from 'react-icons/ai'
 import {AiFillTwitterCircle} from 'react-icons/ai'
