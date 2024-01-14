@@ -1,3 +1,4 @@
+import NavPanel from "./Components/NavPanel";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Home from "./Pages/home";
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <Home />
+      <NavPanel />
       <About />
       <TechStack />
       <Projects />

@@ -9,6 +9,7 @@
     padding: 1% 0;
     position: fixed;
     backdrop-filter: blur(4px);
+    z-index: 100;
 }
 
 

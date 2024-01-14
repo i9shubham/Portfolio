@@ -8,13 +8,19 @@
 }
 
 #home h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+}
+
+#home h2 {
+    font-size: 3.5rem;
     font-weight: bold;
     font-family: poppins-bold;
 }
-.mobile{
+
+.mobile {
     display: none;
 }
+
 .heading {
     background: linear-gradient(90deg, #1487cc -2.06%, #E70FAA 100%);
     -webkit-background-clip: text;
@@ -23,28 +29,60 @@
     font-family: poppins-bold;
 }
 
-.profile-img img {
+
+
+
+
+/* .profile-img img ::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25vw;
+    height: 25vw;
+    background: linear-gradient(90deg, #1487cc -2.06%, #E70FAA 100%);
     border-radius: 100%;
+    z-index: -1;
+    translate: (-50%, -50%);
+} */
+
+.profile-img img {
     width: 25vw;
 }
 
-@media only screen and (max-width: 600px){
-    #home{
+.role {
+    font-size: 0.4rem;
+    font-weight: bold;
+    font-family: poppins-bold;
+    color: #666666;
+}
+
+@media only screen and (max-width: 600px) {
+    #home {
         flex-direction: column;
         justify-content: center;
         height: 100vh;
     }
-    #home h1{
-        text-align: left;
+
+    #home h1 {
+        font-size: 1.8rem;
+        text-align: center;
     }
+
+    #home h2 {
+        font-size: 2rem;
+    }
+
     .profile-img img {
-        border-radius: 0 0;
-        width:100%;
+        width: 80vw;
+        margin-top: 20px;
     }
-    .pc{
+
+    .pc {
         display: none;
     }
-    .mobile{
+
+    .mobile {
         display: block;
     }
 }

@@ -1,46 +1,42 @@
-#about-me{
+#about-me {
     height: 100vh;
     width: 50vw;
     display: flex;
     align-items: center;
 }
-.about{
+
+.about {
     display: flex;
     justify-content: space-between;
     padding: 2%;
     line-height: 2;
 }
 
-.clg{
+.clg {
     display: inline;
     font-size: 0.8em;
 }
-.margin-top{
+
+.margin-top {
     margin-top: 2%;
 }
 
-.desc{
+.desc {
     height: auto;
     padding: 1%;
     /* background-color: #fff; */
 }
 
-.desc p{
+.desc p {
     text-align: justify;
 }
 
-.profile-img img{
-    width: 25vw;
-    height: 100%;
-    background-color: #fff;
-}
-
-.tech-stack{
+.tech-stack {
     width: 15%;
 }
 
-@media only screen and (max-width: 600px){
-    #about-me{
+@media only screen and (max-width: 600px) {
+    #about-me {
         height: auto;
         width: 100%;
     }
