@@ -35,7 +35,7 @@ const About = () => {
                                 }}
                             />
                         </p>
-                        <h1 className='bold'>Education</h1>
+                        <h1 className='bold '>Education</h1>
                         <p className='margin-top'>
                             Bachelors of Engineering (Computer)
                         </p>

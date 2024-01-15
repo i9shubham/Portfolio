@@ -1,11 +1,11 @@
 import React from 'react';
 import '../Pages/home.css';
 import './NavPanel.css';
+import { TiHome } from 'react-icons/ti';
+import { IoSchool } from 'react-icons/io5';
+import { MdWork } from 'react-icons/md';
+import { IoMdMail } from 'react-icons/io';
 
-import HomeIcon from '@mui/icons-material/Home';
-import SchoolIcon from '@mui/icons-material/School';
-import WorkIcon from '@mui/icons-material/Work';
-import EmailIcon from '@mui/icons-material/Email';
 const NavPanel = () => {
     return (
         <>
@@ -14,7 +14,7 @@ const NavPanel = () => {
                     <div className='nav-panel__container__logo'>
                         <button className='menu'>
                             <a href='#home'>
-                                <HomeIcon />
+                                <TiHome />
                             </a>
                             <span>Home</span>
                         </button>
@@ -22,7 +22,7 @@ const NavPanel = () => {
                     <div className='nav-panel__container__logo'>
                         <button className='menu'>
                             <a href='#about-me'>
-                                <SchoolIcon />
+                                <IoSchool />
                             </a>
                             <span>About</span>
                         </button>
@@ -30,7 +30,7 @@ const NavPanel = () => {
                     <div className='nav-panel__container__logo'>
                         <button className='menu'>
                             <a href='#myprojects'>
-                                <WorkIcon />
+                                <MdWork />
                             </a>
                             <span>Experiance</span>
                         </button>
@@ -38,7 +38,7 @@ const NavPanel = () => {
                     <div className='nav-panel__container__logo'>
                         <button className='menu'>
                             <a href='#contact'>
-                                <EmailIcon />
+                                <IoMdMail />
                             </a>
                             <span>Contact</span>
                         </button>
