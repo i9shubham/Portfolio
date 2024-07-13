@@ -1,5 +1,6 @@
 #myprojects{
     height: 100%;
+    margin-top: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;

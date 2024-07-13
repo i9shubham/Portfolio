@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import './Projects.css';
 import Project from './project/Project';
 import Fade from 'react-reveal/Fade';
@@ -69,68 +69,15 @@ const ProjectPage = () => {
             <div id='projects'>
                 <div className='myprojects'>
                     <Fade bottom>
-                        <Project
-                            img={projectObj[0].img}
-                            heading={projectObj[0].heading}
-                            desc={projectObj[0].desc}
-                            githubLink={projectObj[0].githubLink}
-                            link={projectObj[0].link}
-                        />
-                    </Fade>
-                    <Fade bottom>
-                        <Project
-                            img={projectObj[1].img}
-                            heading={projectObj[1].heading}
-                            desc={projectObj[1].desc}
-                            githubLink={projectObj[1].githubLink}
-                            link={projectObj[1].link}
-                        />
-                    </Fade>
-                    <Fade bottom>
-                        <Project
-                            img={projectObj[3].img}
-                            heading={projectObj[3].heading}
-                            desc={projectObj[3].desc}
-                            githubLink={projectObj[3].githubLink}
-                            link={projectObj[3].link}
-                        />
-                    </Fade>
-
-                    <Fade bottom>
-                        <Project
-                            img={projectObj[2].img}
-                            heading={projectObj[2].heading}
-                            desc={projectObj[2].desc}
-                            githubLink={projectObj[2].githubLink}
-                            link={projectObj[2].link}
-                        />
-                    </Fade>
-                    <Fade bottom>
-                        <Project
-                            img={projectObj[5].img}
-                            heading={projectObj[5].heading}
-                            desc={projectObj[5].desc}
-                            githubLink={projectObj[5].githubLink}
-                            link={projectObj[5].link}
-                        />
-                    </Fade>
-                    <Fade bottom>
-                        <Project
-                            img={projectObj[6].img}
-                            heading={projectObj[6].heading}
-                            desc={projectObj[6].desc}
-                            githubLink={projectObj[6].githubLink}
-                            link={projectObj[6].link}
-                        />
-                    </Fade>
-                    <Fade bottom>
-                        <Project
-                            img={projectObj[4].img}
-                            heading={projectObj[4].heading}
-                            desc={projectObj[4].desc}
-                            githubLink={projectObj[4].githubLink}
-                            link={projectObj[4].link}
-                        />
+                        {projectObj.map((project) => (
+                            <Project
+                                img={project.img}
+                                heading={project.heading}
+                                desc={project.desc}
+                                githubLink={project.githubLink}
+                                link={project.link}
+                            />
+                        ))}
                     </Fade>
                 </div>
             </div>
