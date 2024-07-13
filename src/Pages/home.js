@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 import Navbar from '../Components/Navbar';
 import './home.css';
-import shubham from '../images/ishubham.jpg';
+import shubham from '../images/i9shubham.png';
 import Typewriter from 'typewriter-effect';
 
 const Home = () => {
@@ -11,9 +11,12 @@ const Home = () => {
 
             <div id='home'>
                 <div className='pc'>
-                    {/* <h1>Hi 👋,</h1>
-                    <h1>my name is</h1> */}
-                    <h1 className='heading'>Shubham Ingole</h1>
+                    <h3>Hi 👋 There,</h3>
+                    {/* <h3>my name is</h3> */}
+                    <h1>
+                        {' '}
+                        I'm <span className='heading'>Shubham!</span>
+                    </h1>
                     <h2 className='flex role'>
                         <span>
                             <Typewriter
@@ -39,7 +42,11 @@ const Home = () => {
                     </h2>
                 </div>
                 <div className='mobile'>
-                    <h1 className='heading'>Shubham Ingole</h1>
+                    <h3>Hi 👋 There,</h3>
+                    <h1>
+                        {' '}
+                        I'm <span className='heading'>Shubham!</span>
+                    </h1>
                     <h2 className='flex role'>
                         <span>
                             <Typewriter
@@ -65,7 +72,7 @@ const Home = () => {
                     </h2>
                 </div>
                 <div className='profile-img'>
-                    <img src={shubham} alt='Shubham Ingole' />
+                    <img src={shubham} alt='Shubham Ingole' loading='lazy' />
                 </div>
             </div>
         </>

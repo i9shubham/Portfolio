@@ -8,13 +8,19 @@
 }
 
 #home h1 {
-    font-size: 3rem;
+    font-size: 4rem;
+    font-family: poppins-bold;
 }
 
 #home h2 {
     font-size: 3.5rem;
     font-weight: bold;
     font-family: poppins-bold;
+}
+
+#home h3 {
+    font-size: 1.5rem;
+    font-family: poppins-reg;
 }
 
 .mobile {
@@ -47,7 +53,9 @@
 } */
 
 .profile-img img {
-    width: 25vw;
+    width: 40vw;
+    filter: drop-shadow(8px 4px 10px rgba(0, 0, 0, 0.5));
+    border-radius: 5%;
 }
 
 .role {
@@ -74,7 +82,7 @@
     }
 
     .profile-img img {
-        width: 80vw;
+        width: 96vw;
         margin-top: 20px;
     }
 
@@ -83,6 +91,8 @@
     }
 
     .mobile {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
