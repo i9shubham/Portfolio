@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import './About.css';
 import { HiOutlineBuildingLibrary } from 'react-icons/hi2';
 import Typewriter from 'typewriter-effect';
@@ -11,15 +11,11 @@ const About = () => {
                         <h1 className='bold'>About Me</h1>
                         <p>
                             I am a highly enthusiastic and driven fullstack
-                            (MERN) developer, currently pursuing my Bachelor's
-                            degree from JSPM's BSIOTR at Pune University. Coming
-                            from a background where access to the internet was
-                            limited, I made the decision to further my education
-                            in one of India's most educational cities, Pune. I
-                            am confident in my potential and thrive in an
-                            environment surrounded by like-minded individuals. I
-                            am also dedicated to helping those in need and
-                            supporting my friends in any way possible.
+                            (MERN) developer, completed my Bachelor's degree
+                            from JSPM's BSIOTR at Pune University. I have 1+
+                            year of Software Devlopment experience. I am
+                            confident in my potential and thrive in an
+                            environment surrounded by like-minded individuals.
                             <Typewriter
                                 options={{
                                     // loop: true,
@@ -29,15 +25,16 @@ const About = () => {
                                 onInit={(typewriter) => {
                                     typewriter
                                         .typeString(
-                                            'Looking opportunities for Software Devlopment Engineer role.'
+                                            'Open for the Software Engineering roles - Frontend, Backend, FullStack Developer.'
                                         )
                                         .start();
                                 }}
                             />
                         </p>
+                        <br />
                         <h1 className='bold '>Education</h1>
                         <p className='margin-top'>
-                            Bachelors of Engineering (Computer)
+                            Graduation : Bachelors of Engineering (CS)
                         </p>
                         <div
                             style={{
@@ -47,7 +44,7 @@ const About = () => {
                             }}
                         >
                             <HiOutlineBuildingLibrary />
-                            <span className='clg'>7.20 SGPA</span>
+                            <span className='clg'>7.74 CGPA</span>
                         </div>
                         <p className='clg'>
                             {/* <Typewriter
@@ -63,7 +60,7 @@ const About = () => {
                                         .start();
                                 }}
                             /> */}
-                            JSPM's BSIOTR, Pune 2024
+                            Savitribai Phule Pune University, 2024
                         </p>
                         <hr />
                         <p className='margin-top'>
