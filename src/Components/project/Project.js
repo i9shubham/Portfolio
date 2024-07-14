@@ -4,12 +4,12 @@ import { AiFillGithub } from 'react-icons/ai';
 // import { AiOutlineLink } from 'react-icons/ai';
 
 const Project = (props) => {
-    console.log(props.heading);
+    // console.log(props.heading);
     return (
         <>
             <div className='project'>
                 <div className='project-img'>
-                    <img src={props.img} alt='' />
+                    <img src={props.img} alt={props.heading} loading='lazy' />
                 </div>
                 <div className='project-desc'>
                     <div className='project-head'>
