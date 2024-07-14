@@ -1,6 +1,6 @@
 #myprojects {
     height: 100%;
-    margin-top: 10rem;
+    padding-top: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,6 +13,6 @@
 
 @media only screen and (max-width: 600px) {
     #myprojects {
-        height: auto;
+        padding-top: 4rem;
     }
 }
