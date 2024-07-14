@@ -12,7 +12,7 @@ const Home = () => {
 
             <div id='home'>
                 <div className='pc'>
-                    <h3>Hi 👋 There,</h3>
+                    <h3>Hi <span className='hi'>👋</span> There,</h3>
                     {/* <h3>my name is</h3> */}
                     <h1>
                         {' '}
@@ -43,7 +43,9 @@ const Home = () => {
                     </h2>
                 </div>
                 <div className='mobile'>
-                    <h3>Hi 👋 There,</h3>
+                    <h3>
+                        Hi <span className='hi'>👋</span> There,
+                    </h3>
                     <h1>
                         {' '}
                         I'm <span className='heading'>Shubham!</span>

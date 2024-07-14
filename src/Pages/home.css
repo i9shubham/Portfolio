@@ -7,6 +7,29 @@
     height: 100vh;
 }
 
+@keyframes waveHand {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    20%,
+    60% {
+        transform: rotate(-20deg);
+    }
+
+    40%,
+    80% {
+        transform: rotate(10deg);
+    }
+}
+
+.hi {
+    display: inline-block;
+    animation: waveHand 2s ease-in-out infinite;
+}
+
 #home h1 {
     font-size: 4rem;
     font-family: poppins-bold;
@@ -81,9 +104,12 @@
         font-size: 2rem;
     }
 
+    #home h3{
+        margin-top: 50px;
+    }
+
     .profile-img img {
         width: 96vw;
-        margin-top: 20px;
     }
 
     .pc {
