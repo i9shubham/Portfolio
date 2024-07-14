@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar';
 import './home.css';
 import shubham from '../images/i9shubham.png';
 import Typewriter from 'typewriter-effect';
+import { Fade } from 'react-reveal';
 
 const Home = () => {
     return (
@@ -71,9 +72,15 @@ const Home = () => {
                         </span>
                     </h2>
                 </div>
-                <div className='profile-img'>
-                    <img src={shubham} alt='Shubham Ingole' loading='lazy' />
-                </div>
+                <Fade fade>
+                    <div className='profile-img'>
+                        <img
+                            src={shubham}
+                            alt='Shubham Ingole'
+                            loading='lazy'
+                        />
+                    </div>
+                </Fade>
             </div>
         </>
     );
