@@ -1,8 +1,9 @@
 #about-me {
-    height: 100vh;
-    width: 50vw;
+    height: 100%;
+    width: 80vw;
     display: flex;
     align-items: center;
+    padding-top: 10rem;
 }
 
 .about {
@@ -35,7 +36,13 @@
     width: 15%;
 }
 
+
+.bullets {
+    text-align: justify;
+}
+
 @media only screen and (max-width: 600px) {
+
     #about-me {
         height: auto;
         width: 100%;

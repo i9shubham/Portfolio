@@ -29,7 +29,7 @@ p {
     color: #666666;
 }
 
-a{
+a {
     color: #000;
 }
 
@@ -40,6 +40,11 @@ a{
 .bold {
     font-family: poppins-bold;
 }
+
+.black {
+    color: #000;
+}
+
 
 @media only screen and (max-width: 600px) {
     body {
