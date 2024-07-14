@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import '../Pages/home.css';
 import './Footer.css';
 import { AiFillLinkedin } from 'react-icons/ai';
@@ -12,22 +12,22 @@ const Footer = () => {
                 <div className='footer-social-pc'>
                     <a
                         className='social'
-                        href='https://www.github.com/Shuhbam7350'
+                        href='https://www.github.com/i9shubham'
                     >
-                        <AiFillGithub size='1.2em' />
+                        <AiFillGithub size='1.6em' />
                     </a>
                     <a
                         className='social'
-                        href='https://www.twitter.com/twtShubz'
+                        href='https://www.twitter.com/i9shubham'
                     >
-                        <AiFillTwitterCircle size='1.2em' />
+                        <AiFillTwitterCircle size='1.6em' />
                     </a>
                     <a
                         className='social'
-                        href='https://www.linkedin.com/in/shubham-ingole'
+                        href='https://www.linkedin.com/in/i9shubham'
                     >
                         {' '}
-                        <AiFillLinkedin size='1.2em' />
+                        <AiFillLinkedin size='1.6em' />
                     </a>
                 </div>
                 <hr />
@@ -49,22 +49,22 @@ const Footer = () => {
                     <div className='footer-social-mobile'>
                         <a
                             className='social'
-                            href='https://www.github.com/Shuhbam7350'
+                            href='https://www.github.com/i9shubham'
                         >
-                            <AiFillGithub size='1.2em' />
+                            <AiFillGithub size='1.6em' />
                         </a>
                         <a
                             className='social'
-                            href='https://www.twitter.com/twtShubz'
+                            href='https://www.twitter.com/i9shubham'
                         >
-                            <AiFillTwitterCircle size='1.2em' />
+                            <AiFillTwitterCircle size='1.6em' />
                         </a>
                         <a
                             className='social'
-                            href='https://www.linkedin.com/in/shubham-ingole'
+                            href='https://www.linkedin.com/in/i9shubham'
                         >
                             {' '}
-                            <AiFillLinkedin size='1.2em' />
+                            <AiFillLinkedin size='1.6em' />
                         </a>
                     </div>
                 </div>
