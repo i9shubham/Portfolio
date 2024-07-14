@@ -1,31 +1,50 @@
-import React from "react";
-import "./Project.css"
-import {AiFillGithub} from 'react-icons/ai'
-import {AiOutlineLink} from 'react-icons/ai'
+import React from 'react';
+import './Project.css';
+import { AiFillGithub } from 'react-icons/ai';
+// import { AiOutlineLink } from 'react-icons/ai';
 
-
-const Project = (props)=>{
+const Project = (props) => {
     console.log(props.heading);
-    return(
+    return (
         <>
-            <div className="project">
-                <div className="project-img">
-                    <img src={props.img} alt="" />
+            <div className='project'>
+                <div className='project-img'>
+                    <img src={props.img} alt='' />
                 </div>
-                <div className="project-desc">
-                    <p className="project-heading">{props.heading}</p>
-                    <p>{props.desc}</p>
-                    <div className="project-links">
-                        <AiOutlineLink size='1em' />
-                        <a href={props.link} > View Project</a>
+                <div className='project-desc'>
+                    <div className='project-head'>
+                        <p className='project-heading'>{props.heading}</p>
+                        <div className='project-links'>
+                            <div className='project-link'>
+                                {/* <AiOutlineLink size='1em' /> */}
+                                <a
+                                    href={props.link}
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                >
+                                    Live
+                                </a>
+                            </div>
+                            <div className='project-link'>
+                                <a
+                                    href={props.githubLink}
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                    className='github'
+                                >
+                                    <AiFillGithub size='1.6em' />
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div className="project-links">  
-                        <AiFillGithub size='1em' />
-                        <a href={props.githubLink} target="_blank" rel="noopener noreferrer">view code</a>
-                    </div>
+                    <p className='project-description'>{props.desc}</p>
+
+                    {props.stack.map((stack) => (
+                        <span className='project-tech'>{stack}</span>
+                    ))}
                 </div>
             </div>
         </>
-    )
-}
-export default Project
+    );
+};
+export default Project;

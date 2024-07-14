@@ -1,4 +1,4 @@
-#myprojects{
+#myprojects {
     height: 100%;
     margin-top: 10rem;
     display: flex;
@@ -6,8 +6,13 @@
     justify-content: center;
 }
 
-@media only screen and (max-width: 600px){
-    #myprojects{
+
+.project-desc{
+    text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+    #myprojects {
         height: auto;
     }
 }
