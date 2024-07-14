@@ -58,14 +58,7 @@ const projectObj = [
         desc: 'A web app which fetches an AI generated images (glimpse) by Dall-E2.',
         link: 'https://glimpseai.up.railway.app',
         githubLink: 'https://github.com/Shubham7350/GlimpseAI',
-        stack: [
-            'PUG',
-            'CSS',
-            'Javascript',
-            'Nodejs',
-            'Express',
-            'ChatGPT API',
-        ],
+        stack: ['PUG', 'CSS', 'Javascript', 'Nodejs', 'Express', 'ChatGPT API'],
     },
     {
         img: turban,
@@ -112,12 +105,7 @@ const projectObj = [
         desc: 'Openweather API is used which can find weather according the city name.',
         link: 'https://cityweather-app.vercel.app/',
         githubLink: 'https://github.com/Shubham7350/weatherApp',
-        stack: [
-            'JavaScript',
-            'React JS',
-            'Axios',
-            'Openweather API'
-        ],
+        stack: ['JavaScript', 'React JS', 'Axios', 'Openweather API'],
     },
 ];
 // console.log(projectObj[0].img)
@@ -126,8 +114,8 @@ const ProjectPage = () => {
         <>
             <div id='projects'>
                 <div className='myprojects'>
-                    <Fade bottom>
-                        {projectObj.map((project) => (
+                    {projectObj.map((project, i) => (
+                        <Fade bottom key={i}>
                             <Project
                                 img={project.img}
                                 heading={project.heading}
@@ -136,8 +124,8 @@ const ProjectPage = () => {
                                 link={project.link}
                                 stack={project.stack}
                             />
-                        ))}
-                    </Fade>
+                        </Fade>
+                    ))}
                 </div>
             </div>
         </>

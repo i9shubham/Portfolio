@@ -23,168 +23,112 @@ import postman from '../images/postman.svg';
 import typescript from '../images/typescript-icon.svg';
 
 const TechStack = () => {
+    const techStack = [
+        {
+            icon: html,
+            name: 'HTML',
+        },
+        {
+            icon: css,
+            name: 'CSS',
+        },
+        {
+            icon: js,
+            name: 'JavaScript',
+        },
+        {
+            icon: cplusplus,
+            name: 'C++',
+        },
+        {
+            icon: react,
+            name: 'React Js',
+        },
+        {
+            icon: mui,
+            name: 'Material UI',
+        },
+        {
+            icon: redux,
+            name: 'Redux',
+        },
+        {
+            icon: mysql,
+            name: 'MySQL',
+        },
+        {
+            icon: nodejs,
+            name: 'Node.js',
+        },
+        {
+            icon: express,
+            name: 'Express Js',
+        },
+        {
+            icon: mongodb,
+            name: 'MongoDB',
+        },
+        {
+            icon: git,
+            name: 'Git',
+        },
+        {
+            icon: docker,
+            name: 'Docker',
+        },
+        {
+            icon: java,
+            name: 'Java',
+        },
+        {
+            icon: nestjs,
+            name: 'Nest.js',
+        },
+        {
+            icon: nextjs,
+            name: 'Next Js',
+        },
+        {
+            icon: postgres,
+            name: 'PostgreSQL',
+        },
+        {
+            icon: postman,
+            name: 'Postman',
+        },
+        {
+            icon: typescript,
+            name: 'TypeScript',
+        },
+        {
+            icon: sql,
+            name: 'SQL',
+        },
+    ];
     return (
         <>
-            <Fade bottom>
-                <div id='techStack'>
-                    <div>
-                        <h1 className='centre bold'>My Tech Stack</h1>
-                        <p className='centre'>
-                            Technologies I've been working with recently
-                        </p>
-                        <div className='stackflex stackflex1'>
-                            <span className='stackStyle'>
-                                <img src={html} alt='HTML' className='stack' />{' '}
-                                <span> HTML</span>
-                            </span>
-                            <span className='stackStyle'>
-                                <img src={css} alt='CSS' className='stack' />{' '}
-                                <span> CSS</span>
-                            </span>
-                            <span className='stackStyle'>
-                                <img
-                                    src={js}
-                                    alt='JavaScript'
-                                    className='stack'
-                                />{' '}
-                                <span> JavaScript</span>
-                            </span>
-
-                            <span className='stackStyle'>
-                                <img
-                                    src={cplusplus}
-                                    alt='C++'
-                                    className='stack'
-                                />
-                                <span> C++ </span>{' '}
-                            </span>
-                            <span className='stackStyle'>
-                                <img
-                                    src={react}
-                                    alt='React JS'
-                                    className='stack'
-                                />{' '}
-                                <span> React Js</span> {' '}
-                            </span>
-                            <span className='stackStyle'>
-                                <img
-                                    src={mui}
-                                    alt='material ui'
-                                    className='stack'
-                                />{' '}
-                                <span> Material UI </span>{' '}
-                            </span>
-                            <span className='stackStyle'>
-                                <img
-                                    src={redux}
-                                    alt='redux'
-                                    className='stack'
-                                />{' '}
-                                <span> Redux</span>{' '}
-                            </span>
-
-                            <span className='stackStyle'>
-                                <img
-                                    src={mysql}
-                                    alt='MySQL'
-                                    className='stack'
-                                />{' '}
-                                <span> MySQL</span>
-                            </span>
-
-                            <span className='stackStyle'>
-                                <img
-                                    src={nodejs}
-                                    alt='Node JS'
-                                    className='stack'
-                                />{' '}
-                                <span> Node.js</span> {' '}
-                            </span>
-                            <span className='stackStyle'>
-                                <img
-                                    src={express}
-                                    alt='Express Js'
-                                    className='stack'
-                                />{' '}
-                                <span> Express Js</span>{' '}
-                            </span>
-                            <span className='stackStyle'>
-                                <img
-                                    src={mongodb}
-                                    alt='MongoDB'
-                                    className='stack'
-                                />{' '}
-                                <span> MongoDB</span>{' '}
-                            </span>
-
-                            <span className='stackStyle'>
-                                <img src={git} alt='Git' className='stack' />{' '}
-                                <span> Git</span>{' '}
-                            </span>
-                            <span className='stackStyle'>
-                                <img
-                                    src={docker}
-                                    alt='docker'
-                                    className='stack'
-                                />{' '}
-                                <span> Docker</span>{' '}
-                            </span>
-                            <span className='stackStyle'>
-                                <img src={java} alt='Java' className='stack' />{' '}
-                                <span> Java</span>{' '}
-                            </span>
-                            <span className='stackStyle'>
-                                <img
-                                    src={nestjs}
-                                    alt='Nest.js'
-                                    className='stack'
-                                />{' '}
-                                <span> Nest.js</span>{' '}
-                            </span>
-                            <span className='stackStyle'>
-                                <img
-                                    src={nextjs}
-                                    alt='Next Js'
-                                    className='stack'
-                                />{' '}
-                                <span> Next Js</span>{' '}
-                            </span>
-                            <span className='stackStyle'>
-                                <img
-                                    src={postgres}
-                                    alt='PostgreSQL'
-                                    className='stack'
-                                />{' '}
-                                <span> PostgreSQL</span>{' '}
-                            </span>
-                            <span className='stackStyle'>
-                                <img
-                                    src={postman}
-                                    alt='Postman'
-                                    className='stack'
-                                />{' '}
-                                <span> Postman</span>{' '}
-                            </span>
-                            <span className='stackStyle'>
-                                <img
-                                    src={typescript}
-                                    alt='TypeScript'
-                                    className='stack'
-                                />{' '}
-                                <span> TypeScript</span>{' '}
-                            </span>
-                            <span className='stackStyle'>
-                                <img
-                                    src={sql}
-                                    alt='SQL'
-                                    className='stack'
-                                />{' '}
-                                <span> SQL</span>{' '}
-                            </span>
-                        </div>
+            <div id='techStack'>
+                <div>
+                    <h1 className='centre bold'>My Tech Stack</h1>
+                    <p className='centre'>
+                        Technologies I've been working with recently
+                    </p>
+                    <div className='stackflex stackflex1'>
+                        {techStack.map((tech) => (
+                            <Fade bottom key={tech.name}>
+                                <span className='stackStyle'>
+                                    <img
+                                        src={tech.icon}
+                                        alt={tech.name}
+                                        className='stack'
+                                    />
+                                    <span> {tech.name}</span>
+                                </span>
+                            </Fade>
+                        ))}
                     </div>
                 </div>
-            </Fade>
+            </div>
         </>
     );
 };

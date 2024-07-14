@@ -1,20 +1,20 @@
-#techStack{
-    margin-top: 10rem;
-    margin-bottom: 5rem;
-    height: 100vh;
+#techStack {
+    padding-top: 10rem;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.stackflex{
+.stackflex {
     width: 80vw;
     display: grid;
-    grid-template-columns: repeat(4,minmax(0, 4fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     justify-items: center;
     margin: 2% 0;
-} 
-.stackflex img{
+}
+
+.stackflex img {
     margin: 4% 0;
 }
 
@@ -22,13 +22,13 @@
     margin-top: 5%;
 }
 
-.stackStyle{
+.stackStyle {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 40%;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     cursor: pointer;
     padding: 2%;
@@ -37,23 +37,28 @@
     font-size: 0.8em;
 }
 
-.stack{
+.stack {
     width: 5vw;
     display: flex;
 }
 
-@media only screen and (max-width: 600px){
-    #techStack{
-        height: 50vh;
+@media only screen and (max-width: 600px) {
+    #techStack {
+        padding-top: 4rem;
+        height: 100%;
     }
-    .stackflex{
+
+    .stackflex {
         width: 100%;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
-    .stack{
+
+    .stack {
         width: 10vw;
         padding: 4%;
     }
-    .stackStyle{
+
+    .stackStyle {
         font-size: 0.5em;
     }
 }
