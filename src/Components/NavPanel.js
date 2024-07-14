@@ -14,7 +14,7 @@ const NavPanel = () => {
                     <div className='nav-panel__container__logo'>
                         <button className='menu'>
                             <a href='#home'>
-                                <TiHome />
+                                <TiHome className='icon' />
                             </a>
                             <span>Home</span>
                         </button>
@@ -22,7 +22,7 @@ const NavPanel = () => {
                     <div className='nav-panel__container__logo'>
                         <button className='menu'>
                             <a href='#about-me'>
-                                <IoSchool />
+                                <IoSchool className='icon' />
                             </a>
                             <span>About</span>
                         </button>
@@ -30,7 +30,7 @@ const NavPanel = () => {
                     <div className='nav-panel__container__logo'>
                         <button className='menu'>
                             <a href='#myprojects'>
-                                <MdWork />
+                                <MdWork className='icon' />
                             </a>
                             <span>Experiance</span>
                         </button>
@@ -38,7 +38,7 @@ const NavPanel = () => {
                     <div className='nav-panel__container__logo'>
                         <button className='menu'>
                             <a href='#contact'>
-                                <IoMdMail />
+                                <IoMdMail className='icon' />
                             </a>
                             <span>Contact</span>
                         </button>
