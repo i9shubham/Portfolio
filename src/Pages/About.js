@@ -38,48 +38,6 @@ const About = () => {
                             </p>
                         </Fade>
                         <br />
-                        <Fade bottom>
-                            <h1 className='bold '>Education</h1>
-                        </Fade>
-                        <Fade bottom>
-                            <p className='margin-top'>
-                                Graduation : Bachelors of Engineering (CS)
-                            </p>
-
-                            <div
-                                style={{
-                                    display: 'flex',
-                                    justifyContent: 'start',
-                                    alignItems: 'center',
-                                }}
-                            >
-                                <HiOutlineBuildingLibrary />
-                                <span className='clg'>7.74 CGPA</span>
-                            </div>
-                            <p className='clg'>
-                                Savitribai Phule Pune University, 2024
-                            </p>
-                        </Fade>
-                        <Fade fade>
-                            <hr />
-                        </Fade>
-                        <Fade bottom>
-                            <p className='margin-top'>12th Science</p>
-                            <div
-                                style={{
-                                    display: 'flex',
-                                    justifyContent: 'start',
-                                    alignItems: 'center',
-                                }}
-                            >
-                                <HiOutlineBuildingLibrary />
-                                <span className='clg'>72.48%</span>
-                            </div>
-                            <p className='clg'>Balbhim College, Beed 2020</p>
-                        </Fade>
-                        <Fade fade>
-                            <hr />
-                        </Fade>
                         <br />
                         <Fade bottom>
                             <h1 className='bold'>Experience</h1>
@@ -93,7 +51,7 @@ const About = () => {
                                 <p>November 2023 - Current</p>
                             </div>
                         </Fade>
-                        <Fade fade>
+                        <Fade bottom>
                             <hr />
                         </Fade>
                         <Fade bottom>
@@ -132,7 +90,7 @@ const About = () => {
                                 <p>April 2023 - October 2023</p>
                             </div>
                         </Fade>
-                        <Fade fade>
+                        <Fade bottom>
                             <hr />
                         </Fade>
                         <Fade bottom>
@@ -157,6 +115,49 @@ const About = () => {
                             </ul>
                         </Fade>
                         <br />
+                        <Fade bottom>
+                            <h1 className='bold '>Education</h1>
+                        </Fade>
+                        <Fade bottom>
+                            <p className='margin-top'>
+                                Graduation : Bachelors of Engineering (CS)
+                            </p>
+
+                            <div
+                                style={{
+                                    display: 'flex',
+                                    justifyContent: 'start',
+                                    alignItems: 'center',
+                                }}
+                            >
+                                <HiOutlineBuildingLibrary />
+                                <span className='clg'>7.74 CGPA</span>
+                            </div>
+                            <p className='clg'>
+                                Savitribai Phule Pune University, 2024
+                            </p>
+                        </Fade>
+                        <Fade bottom>
+                            <hr />
+                        </Fade>
+                        <Fade bottom>
+                            <p className='margin-top'>12th Science</p>
+                            <div
+                                style={{
+                                    display: 'flex',
+                                    justifyContent: 'start',
+                                    alignItems: 'center',
+                                }}
+                            >
+                                <HiOutlineBuildingLibrary />
+                                <span className='clg'>72.48%</span>
+                            </div>
+                            <p className='clg'>Balbhim College, Beed 2020</p>
+                        </Fade>
+                        <Fade bottom>
+                            <hr />
+                        </Fade>
+                        
                     </div>
                 </div>
             </div>
