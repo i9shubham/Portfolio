@@ -7,7 +7,7 @@ const Projects = () => {
             <div id='myprojects'>
                 <div>
                     <h1 className='centre bold'>Projects</h1>
-                    <p className='centre'>Things I've built so far</p>
+                    <p className='centre'>Things I've built so far ...</p>
                     <ProjectPage />
                 </div>
             </div>
