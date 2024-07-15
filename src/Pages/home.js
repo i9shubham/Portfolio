@@ -12,7 +12,9 @@ const Home = () => {
 
             <div id='home'>
                 <div className='pc'>
-                    <h3>Hi <span className='hi'>👋</span> There,</h3>
+                    <h3>
+                        Hi <span className='hi'>👋</span> There,
+                    </h3>
                     {/* <h3>my name is</h3> */}
                     <h1>
                         {' '}
@@ -21,6 +23,7 @@ const Home = () => {
                     <h2 className='flex role'>
                         <span>
                             <Typewriter
+                                className='Typewriter__cursor'
                                 options={{
                                     loop: true,
                                     autoStart: true,
@@ -28,13 +31,19 @@ const Home = () => {
                                 }}
                                 onInit={(typewriter) => {
                                     typewriter
-                                        .typeString('Software Engineer')
+                                        .typeString(
+                                            '<span style="color: #000; font-weight: bold;">Software Engineer</span>'
+                                        )
                                         .pauseFor(1000)
                                         .deleteAll()
-                                        .typeString('Fullstack Developer')
+                                        .typeString(
+                                            '<span style="color: #000; font-weight: bold;">Fullstack Developer</span>'
+                                        )
                                         .pauseFor(1000)
                                         .deleteAll()
-                                        .typeString('Problem Solver')
+                                        .typeString(
+                                            '<span style="color: #000; font-weight: bold;">Problem Solver</span>'
+                                        )
                                         .pauseFor(1000)
                                         .start();
                                 }}
@@ -60,13 +69,19 @@ const Home = () => {
                                 }}
                                 onInit={(typewriter) => {
                                     typewriter
-                                        .typeString('Software Engineer')
+                                        .typeString(
+                                            '<span style="color: #000; font-weight: bold;">Software Engineer</span>'
+                                        )
                                         .pauseFor(1000)
                                         .deleteAll()
-                                        .typeString('Fullstack Developer')
+                                        .typeString(
+                                            '<span style="color: #000; font-weight: bold;">Fullstack Developer</span>'
+                                        )
                                         .pauseFor(1000)
                                         .deleteAll()
-                                        .typeString('Problem Solver')
+                                        .typeString(
+                                            '<span style="color: #000; font-weight: bold;">Problem Solver</span>'
+                                        )
                                         .pauseFor(1000)
                                         .start();
                                 }}
