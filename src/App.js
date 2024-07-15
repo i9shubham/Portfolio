@@ -10,10 +10,10 @@ function App() {
   return (
     <>
       <Home />
-      <NavPanel />
-      <About />
       <TechStack />
       <Projects />
+      <NavPanel />
+      <About />
       <Contact />
     </>
   );
